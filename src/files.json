@@ -1,0 +1,28 @@
+{
+    "files": [
+        {
+            "name": "dpu-metric-agent.exe",
+            "path": "src\\rs\\dpu-metric\\target\\release\\dpu-metric-agent.exe"
+        },
+        {
+            "name": "dpu_metric_agent.pdb",
+            "path": "src\\rs\\dpu-metric\\target\\release\\dpu_metric_agent.pdb"
+        },
+        {
+            "name": "config.json",
+            "path": "src\\rs\\dpu-metric\\src\\config\\config.json"
+        },
+        {
+            "name": "config\\subscriptions.d",
+            "path": "src\\rs\\dpu-metric\\src\\config\\subscriptions.d"
+        },
+        {
+            "name": "dpcsh.exe",
+            "path": "src\\rs\\rust-dpcsh\\client\\target\\release\\dpcsh.exe"
+        },
+        {
+            "name": "dpcsh.pdb",
+            "path": "src\\rs\\rust-dpcsh\\client\\target\\release\\dpcsh.pdb"
+        }
+    ]
+}
