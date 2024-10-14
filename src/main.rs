@@ -30,7 +30,7 @@ fn main() {
 
     // Read source files from files.json
     // Read source files from embedded files.json
-    let files_json = include_str!("files.json");
+    let files_json = include_str!("config/files.json");
     let files: Files = serde_json::from_str(files_json).expect("Failed to parse files.json");
 
     // Get target folder name from command line argument
