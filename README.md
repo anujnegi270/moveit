@@ -2,6 +2,8 @@
 
 MoveIt is a Rust-based file management tool that copies files and folders from a specified source directory to a target directory. The source directory is typically an Azure Storage folder, and the target directory is specified via command line arguments.
 
+### Owner
+ - Anuj Negi [anujnegi@microsoft.com]
 
 ## Getting Started
 
