@@ -2,7 +2,7 @@ use clap::{Arg, ArgMatches, Command};
 
 pub fn get_app() -> ArgMatches {
     Command::new("MoveIt")
-        .version("1.0")
+        .version(env!("CARGO_PKG_VERSION"))
         .author("Anuj Negi <anujnegi@microsoft.com>")
         .about("Copies files to a specified folder")
         .arg(
