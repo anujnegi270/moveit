@@ -1,4 +1,5 @@
 {
+    "destination": "DD",
     "files": [
         {
             "name": "dpu-metric-agent.exe",
@@ -10,11 +11,19 @@
         },
         {
             "name": "config.json",
-            "path": "src\\rs\\dpu-metric\\src\\config\\config.json"
+            "path": "src\\rs\\configs\\dpu-metric\\config.json"
         },
         {
-            "name": "config\\subscriptions.d",
-            "path": "src\\rs\\dpu-metric\\src\\config\\subscriptions.d"
+            "name": "subscriptions.d\\boss",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\boss"
+        },
+        {
+            "name": "subscriptions.d\\dpu",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\dpu"
+        },
+        {
+            "name": "subscriptions.d\\xdirect",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\xdirect"
         },
         {
             "name": "dpcsh.exe",

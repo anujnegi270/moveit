@@ -13,6 +13,7 @@ pub(crate) struct File {
 
 #[derive(Deserialize)]
 pub(crate) struct Files {
+    destination: String,
     files: Vec<File>,
 }
 
@@ -29,6 +30,10 @@ impl File {
 impl Files {
     pub(crate) fn iter(&self) -> impl Iterator<Item = &File> {
         self.files.iter()
+    }
+
+    pub(crate) fn destination(&self) -> &str {
+        &self.destination
     }
 }
 

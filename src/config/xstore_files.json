@@ -1,0 +1,37 @@
+{
+    "destination": "XSTORE",
+    "files": [
+        {
+            "name": "dpu-metric-agent.exe",
+            "path": "src\\rs\\dpu-metric\\target\\release\\dpu-metric-agent.exe"
+        },
+        {
+            "name": "dpu_metric_agent.pdb",
+            "path": "src\\rs\\dpu-metric\\target\\release\\dpu_metric_agent.pdb"
+        },
+        {
+            "name": "config.json",
+            "path": "src\\rs\\configs\\dpu-metric\\config.json"
+        },
+        {
+            "name": "subscriptions.d\\boss",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\boss"
+        },
+        {
+            "name": "subscriptions.d\\dpu",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\dpu"
+        },
+        {
+            "name": "subscriptions.d\\xstore",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\xstore"
+        },
+        {
+            "name": "dpcsh.exe",
+            "path": "src\\rs\\rust-dpcsh\\client\\target\\release\\dpcsh.exe"
+        },
+        {
+            "name": "dpcsh.pdb",
+            "path": "src\\rs\\rust-dpcsh\\client\\target\\release\\dpcsh.pdb"
+        }
+    ]
+}
