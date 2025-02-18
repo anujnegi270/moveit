@@ -14,19 +14,19 @@
             "path": "src\\rs\\configs\\dpu-metric\\config.json"
         },
         {
-            "name": "subscriptions.d\\boss",
+            "name": "subscriptions.d",
             "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\boss"
         },
         {
-            "name": "subscriptions.d\\dpu",
+            "name": "subscriptions.d",
             "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\dpu"
         },
         {
-            "name": "subscriptions.d\\networking",
+            "name": "subscriptions.d",
             "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\networking"
         },
         {
-            "name": "subscriptions.d\\xdirect",
+            "name": "subscriptions.d",
             "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\xdirect"
         },
         {
