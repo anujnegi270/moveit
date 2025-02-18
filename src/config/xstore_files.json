@@ -1,5 +1,5 @@
 {
-    "destination": "XSTORE",
+    "destination": "XStore",
     "files": [
         {
             "name": "dpu-metric-agent.exe",
@@ -20,6 +20,10 @@
         {
             "name": "subscriptions.d\\dpu",
             "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\dpu"
+        },
+        {
+            "name": "subscriptions.d\\networking",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\networking"
         },
         {
             "name": "subscriptions.d\\xstore",

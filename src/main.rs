@@ -29,9 +29,12 @@ fn main() {
     };
 
     // Read source files from embedded json files
-    for file in [include_str!("config/dd_files.json"), include_str!("config/xstore_files.json")]
-    {
-        let files: Files = serde_json::from_str(file).unwrap_or_else(|_| panic!("Failed to parse {}", file));
+    for file in [
+        include_str!("config/dd_files.json"),
+        include_str!("config/xstore_files.json"),
+    ] {
+        let files: Files =
+            serde_json::from_str(file).unwrap_or_else(|_| panic!("Failed to parse {}", file));
 
         // Get target folder name from command line argument
         let target_folder_name = if let Some(tar) = app.get_one::<String>("target") {
@@ -39,7 +42,12 @@ fn main() {
         } else {
             format!("{}", chrono::Local::now().format("%Y-%m-%d_%H-%M-%S")).to_string()
         };
-        let destination_folder = format!("{}\\{}\\{}", downloads_directory, target_folder_name, files.destination());
+        let destination_folder = format!(
+            "{}\\{}\\{}",
+            downloads_directory,
+            target_folder_name,
+            files.destination()
+        );
 
         // Create the destination folder if it doesn't exist
         app_mkdir(PathBuf::from(&destination_folder));

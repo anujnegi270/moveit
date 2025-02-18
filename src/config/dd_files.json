@@ -22,6 +22,10 @@
             "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\dpu"
         },
         {
+            "name": "subscriptions.d\\networking",
+            "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\networking"
+        },
+        {
             "name": "subscriptions.d\\xdirect",
             "path": "src\\rs\\configs\\dpu-metric\\subscriptions.d\\xdirect"
         },
