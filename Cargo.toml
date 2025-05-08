@@ -1,11 +1,19 @@
 [package]
 name = "moveit"
-version = "0.1.4"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
 serde = { version = "1.0.219", features = ["derive"] }
 serde_json = { version = "1.0.140", features = ["raw_value"] }
-clap = { version = "4.5.32" }
+clap = { version = "4.5.37" }
 walkdir = "2.3"
-chrono = "0.4.40"
+chrono = "0.4.41"
+
+[[bin]]
+name ="moveit"
+path = "src/main.rs"
+
+[[bin]]
+name = "moveit-quick"
+path = "src/quick.rs"
